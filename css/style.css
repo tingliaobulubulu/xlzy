@@ -1,0 +1,275 @@
+body, html {
+	font-family: microsoft yahei, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #555;
+	width: 100% !important;
+	height: 100% !important;
+}
+h1 {
+	font-weight: 700;
+}
+h1 strong {
+	font-weight: 900;
+}
+h2 {
+	text-transform: uppercase;
+	line-height: 20px;
+	margin: 0;
+}
+h3 {
+	font-size: 18px;
+	color: #e27a6a;
+}
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+p {
+	font-family: microsoft yahei, sans-serif;
+}
+p.intro {
+	font-size: 16px;
+	margin: 12px 0 0;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	color: #fff;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #F4D03F;
+}
+ul, ol {
+	list-style: none;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+ul, ol {
+	padding: 0;
+	webkit-padding: 0;
+	moz-padding: 0;
+}
+ /* Navigation */
+.navbar-title{
+	line-height: 50px;
+}
+.navbar{
+	background: #cc9f9d;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+.navbar li a{
+	cursor: pointer;
+	color: #fff;
+}
+.navbar .nav > li > a:hover,.nav li.active a{
+	background:#ffb4b2;
+}
+.input-group{
+	line-height: 30px;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.form-control{
+	border: 0;
+	background: none;
+}
+.input-group-addon{
+	background: none;
+	border: 0;
+}
+.form-control::-moz-placeholder {
+  color: #dcdcdc;
+}
+.form-control:-ms-input-placeholder {
+  color: #dcdcdc;
+}
+.form-control::-webkit-input-placeholder {
+  color: #dcdcdc;
+}
+.login-group .form-control{
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+}
+.form-control.username{
+	width: 60%;
+	height: 40px;
+	font-size: 18px;
+}
+.login-group{
+	border-bottom: 1px solid #dad9d7;
+}
+.login-btn{
+	margin-top: 12px;
+	background: #e38c6e;
+	border: none;
+	border-radius: 20px;
+}
+.login-btn:hover{
+	background: #cc9f9d;
+	border: 1px solid #fff;
+}
+.h60{
+	height: 40px;
+}
+.carousel-inner .item img{
+	width: 100% !important;
+} 
+.carousel-control.left,.carousel-control.right{
+	top: 45%;
+}
+.carousel-control.left img,.carousel-control.right img{
+	width: 60%;
+}
+.system{
+	background: #c9c1d6;
+	padding: 20px 0;
+	margin: 0;
+	padding-bottom: 0;
+}
+.system img{
+	width: 20%;
+}
+.system p{
+	line-height: 60px;
+}
+.info img{
+	width: 100%;
+}
+.relative{
+	position: relative;
+}
+.info .absoute{
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	font-size: 18px;
+	line-height: 100%;
+	padding: 10%;
+	padding-top: 15%;
+	line-height: 30px;
+}
+.info .col-md-12 .col-md-3{
+	margin-bottom: 60px; 
+}
+.info img{
+	opacity: 0.8;
+}
+.info img:hover{
+	opacity: 1;
+}
+.conact-me{
+	padding-top: 10%;
+	padding-bottom: 3%;
+	background: #bf8785;
+}
+.conact-info{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.conact-info a{
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding: 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.conact-phone a{
+	display: block;
+	font-size: 16px;
+}
+.conact-phone img{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.form-group label{
+	width: 8%;
+	float: left;
+}
+.form-group label img{
+	width: 100%;
+}
+h3{
+	width:100%;
+}
+.button-login{
+	width: 100%;
+}
+.button-login a{
+	font-size: 18px;
+	color: #c8c8c8;
+	margin-left: -5%;
+}
+.button-login a:last-child{
+	color: #e27a6a;
+	margin-right: -5%;
+}
+.login-button{
+	margin-top: 20px;
+	width: 100%;
+	background: #e27a6a;
+	border: 0;
+}
+#close{
+	position:absolute;
+	top:2px;
+	right:2px; 
+	z-index: 99;
+}
+#close span{
+	padding:3px 10px;
+	font-size:15px;
+	color:#000;
+	cursor:pointer;
+}
+#log{
+	display: none; 
+	width: 400px; 
+	height: 300px; 
+	padding: 20px 40px; 
+	background-color: #fff; 
+	border: 1px solid #dad9d7;
+	position: fixed; 
+	z-index: 99; 
+	top: 25%;
+	right: 0; 
+	margin: 0 auto; 
+	bottom: 0;
+	left: 0;
+}
+.error{
+	float:right;
+	color:red;
+	font-size:1.2em;
+	margin-right:10px
+}
+@media (min-width: 768px){
+	.navbar-nav > li > a {
+	   padding: 0;
+	   padding: 15px 10px;
+	   margin-right: 10px;
+	}
+}
