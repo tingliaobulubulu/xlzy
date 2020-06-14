@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>诗和远方</title>
+<meta name="description" content="诗和远方">
+<meta name="keywords" content="诗和远方" />
+<link rel="shortcut icon" href="" type="image/x-icon">
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<!-- Stylesheet============================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css"  href="css/animate.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom" role="navigation">
+        <div class="container bounceInDown wow">
+        	<div class="pull-left navbar-title col-lg-2">
+                <a>诗和远方</a>
+            </div> 
+            <button id="fat-btn" class="login-btn btn col-lg-1 pull-right btn-primary" data-loading-text="Loading..." onclick="document.getElementById('log').style.display='block'" type="button">登陆</button>
+            <div class="pull-right col-lg-6">
+                <ul class="nav navbar-nav">
+                	<li class="active">
+                        <a>去远方</a>
+                    </li>
+                    <li>
+                        <a>七大洲</a>
+                    </li>
+                    <li>
+                        <a>八大洋</a>
+                    </li>   
+                    <li class="col-lg-5 pull-right">
+                    	<div class="input-group">
+							<input type="text" placeholder="搜索" class="form-control">
+							<span class="input-group-addon btn btn-primary"><img src="img/search.png" /></span>
+                    	</div>
+                    </li>                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="log" class="fadeInDown wow">
+	  <form action="" method="post">
+	    <h3 class="text-center">用户登录</h3>
+	    <div class="form-group row login-group">
+	      	<label for="username"><img src="img/user-icon.png" /></label>
+	        <input type="text" class="form-control username" name="username"
+	          id="username" placeholder="手机号/用户名" onblur='checkName()' required />
+	        <span id="user" class="error"> </span>
+	    </div>
+	    <div class="form-group row login-group">
+        	<label for="password"><img src="img/password-icon.png" /></label>
+       		<input type="password" class="form-control username"
+          name="password"
+          id="password" placeholder="登录密码" onblur='checkPassword()' required />
+	        
+	        <span id="psword" class="error"> </span>
+	    </div>
+	    <div class="button-login clearfix">
+	      <a class="pull-left text-left">忘记密码?</a>
+	      <a class="pull-right">手机验证码登录</a>
+	    </div>
+	    <input type="submit" class="btn btn-primary login-button" value="立即登录" />
+	  </form>
+	  <div id="close" >
+	    <span onclick="document.getElementById('log').style.display='none'">关闭</span>
+	  </div>
+	</div>
+	<div class="h60"></div>
+	<div id="myCarousel" class="carousel slide wow fadeIn">
+	    <!-- 轮播（Carousel）指标 -->
+	    <ol class="carousel-indicators">
+	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	        <li data-target="#myCarousel" data-slide-to="1"></li>
+	        <li data-target="#myCarousel" data-slide-to="2"></li>
+	    </ol>   
+	    <!-- 轮播（Carousel）项目 -->
+	    <div class="carousel-inner">
+	        <div class="item active">
+	            <img src="img/slide1.jpg" alt="First slide">
+	        </div>
+	        <div class="item">
+	            <img src="img/slide2.jpg" alt="Second slide">
+	        </div>
+	        <div class="item">
+	            <img src="img/slide3.jpg" alt="Third slide">
+	        </div>
+	        <div class="item">
+	            <img src="img/slide4.jpg" alt="Four slide">
+	        </div>
+	        <div class="item">
+	            <img src="img/slide5.jpg" alt="Five slide">
+	        </div>
+	    </div>
+	 
+	    <a class="carousel-control left" href="#myCarousel" 
+	       data-slide="prev"> <img src="img/left.png" /></a>
+	    <a class="carousel-control right" href="#myCarousel" 
+	       data-slide="next"><img src="img/right.png" /></a>
+	</div>
+	<div class="h60"></div>
+	<div class="row system wow bounceInLeft">
+	    <div class="col-md-12">
+	        <div class="col-md-3 text-center">
+				<img src="img/android.png" />
+				<p>Android客户端</p>
+	        </div>
+	        <div class="col-md-3 text-center">
+	            <img src="img/ios.png" />
+	            <p>IOS客户端</p>
+	        </div>
+	         <div class="col-md-3 text-center">
+	          	<img src="img/windows.png" />
+	          	<p>Windows系统</p>
+	        </div>
+	         <div class="col-md-3 text-center">
+	          	<img src="img/mac.png" />
+	          	<p>Mac系统</p>
+	        </div>
+	    </div>
+	</div>
+	<div class="h60"></div>
+	<div class="row info">
+		<div class="col-md-12">
+			<div class="col-md-3 text-center fadeInLeftBig wow">
+	          	<img src="img/img1.png" />
+	        </div>
+	        <div class="col-md-3 text-justifyt bgcolor relative fadeInLeftBig wow">
+	        	<img src="img/bg.png" />
+	        	<p class="absoute">
+	          	这个海滩位于印尼第一个国家公园Pualu  Peucang岛,是印尼本地人最想去的海岛。相对于亚洲很多地方,这里的海滩算是相当干净了.</p>
+	        </div>
+	        <div class="col-md-3 text-center fadeInRightBig wow">
+	          	<img src="img/img2.png" />
+	        </div>
+	        <div class="col-md-3 text-center bgcolor relative fadeInRightBig wow">
+	        	<img src="img/bg.png"/>
+	        	<p class="absoute">
+	          	斯里兰卡对于野生动物爱好者来说就是一个天堂如果说在亚洲想看野生动物斯里兰卡一定是
+最好的去处,更是全世界最壮观的动物天堂。壮观的象群、行踪飘渺的锡兰豹、数以百计的多彩的鸟。</p>
+	        </div>
+	    </div>
+	    <div class="col-md-12">
+			<div class="col-md-3 text-center fadeInLeftBig wow">
+	          	<img src="img/img3.png" />
+	        </div>
+	        <div class="col-md-3 text-center bgcolor relative fadeInLeftBig wow">
+	        	<img src="img/bg.png" />
+	          	<p class="absoute">这个海滩位于印尼第一个国家公园Pualu  Peucang岛,是印尼本地人最想去的海岛。相对于亚洲很多地方,这里的海滩算是相当干净了.</p> 
+	        </div>
+	        <div class="col-md-3 text-center fadeInRightBig wow">
+	          	<img src="img/img4.png" />
+	        </div>
+	        <div class="col-md-3 text-center bgcolor relative fadeInRightBig wow">
+	        	<img src="img/bg.png" />
+	          	<p  class="absoute">斯里兰卡对于野生动物爱好者来说就是一个天堂如果说在亚洲想看野生动物斯里兰卡一定是
+最好的去处,更是全世界最壮观的动物天堂。壮观的象群、行踪飘渺的锡兰豹、数以百计的多彩的鸟。</p>
+	        </div>
+	    </div>
+	</div>
+	<div class="h60"></div>
+	<address class="conact-me slideInLeft wow">
+		<div class="row">
+			<div class="col-md-12">
+	        	<div class="col-md-3">
+				</div>
+				<div class="col-md-3 clearfix conact-info">
+					<a>照片墙</a>
+					<a>邮箱</a>
+					<a>传真</a>
+					<a>关于我们</a>
+				</div>
+				<div class="col-md-3 text-center conact-phone">
+					<a>联系我们</a>
+					<img src="img/icon.png"  />
+					<a href="tel:13123456789">电话：13123456789</a>
+				</div>
+				<div class="col-md-3">
+				</div>
+			</div>
+		</div>
+	</address>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script> 
+<script>new WOW().init();</script>
+<script>
+  var checkName=function() {
+    document.getElementById("user").innerHTML ="";
+    var name = eval(document.getElementById('username')).value;
+    if (name.length > 20 || name.length < 1)
+      document.getElementById("user").innerHTML = "用户名长度在1-20之间！" ;
+  }
+  var checkPassword = function(){
+    document.getElementById("psword").innerHTML ="";
+    var name = eval(document.getElementById('password')).value;
+    if (name.length > 12 || name.length < 6)
+      document.getElementById("psword").innerHTML="密码长度在6-12之间！" ;
+  }
+</script>
+<div class="banquan">
+	<div class="djcopyright" style="margin-bottom: 10px; text-align: center; font-size:12px;background:rgb(239, 239, 239);color: #CBC8C8;">
+		<p>版权所有：雪梨作业</p>
+		
+	</div>
+</div>
+</body>
+</html>
